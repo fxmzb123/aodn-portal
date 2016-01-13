@@ -142,6 +142,9 @@ environments {
         // Set to true if you want to test interaction with new servers. This turns
         // your portal instance into an open proxy and can be dangerous.
         allowAnyHost = true
+        portal {
+            secondaryLogo = "https://static.emii.org.au/images/logo/IMOS_logo-stacked3.png"
+        }
     }
 
     test {
@@ -266,8 +269,7 @@ portal {
         dataFile = [
             "WWW:DOWNLOAD-1.0-http--download",
             "WWW:DOWNLOAD-1.0-http--downloadother",
-            "WWW:DOWNLOAD-1.0-http--downloaddata",
-            "WWW:LINK-1.0-http--downloaddata"
+            "WWW:DOWNLOAD-1.0-http--downloaddata"
         ]
 
         supplementary = [
