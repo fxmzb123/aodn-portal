@@ -144,6 +144,7 @@ environments {
         allowAnyHost = true
         portal {
             secondaryLogo = "https://static.emii.org.au/images/logo/IMOS_logo-stacked3.png"
+            icon = "https://static.emii.org.au/images/aodn/favicon.ico"
         }
     }
 
