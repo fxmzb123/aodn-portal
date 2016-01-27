@@ -67,20 +67,16 @@
         <div class="text-vcenter">
             <div class="homeContent">
                 <h1>AODN Ocean Portal</h1>
-
                 <div>
-                    <div class="hero-unit">"All IMOS data is freely and openly available for the
-                    benefit of Australian marine and climate science as a whole"
+                    <div class="hero-unit">"The Australian marine and climate science data portal"
                     </div>
                 </div>
 
                 <div><a href="home" class="btn btn-primary btn-lg">Get Data Now</a>
                 </div>
             </div>
-
             <div class="text-center"><a href="#services"><i class="white fa fa-3x fa-angle-double-down"></i></a></div>
         </div>
-
     </section>
     <a name="services"></a>
     <section id="services" data-uitype="fade" >

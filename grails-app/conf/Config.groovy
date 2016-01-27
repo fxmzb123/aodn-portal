@@ -226,7 +226,7 @@ baselayers = [
 ]
 
 portal {
-    siteHeader = "Open Access to Ocean Data"
+    siteHeader = "Australian Ocean Data Network"
     motdUrl = "https://static.emii.org.au/motd"
 
     logo = "images/IMOS_logo.png"
