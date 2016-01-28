@@ -58,6 +58,7 @@
 </head>
 
 <body>
+    <a name="home"></a>
     <nav class="">
         <g:render template="/header/mainPortalHeader" model="['showLinks': false, 'portalBranding': portalBranding]"></g:render>
     </nav>
@@ -68,13 +69,8 @@
         <div class="text-vcenter">
             <div class="homeContent">
                 <h1>AODN Ocean Portal</h1>
-                <div>
-                    <div class="hero-unit">"The Australian marine and climate science data portal"
-                    </div>
-                </div>
-
-                <div><a href="home" class="btn btn-primary btn-lg">Get Data Now</a>
-                </div>
+                <div>"The Australian marine and climate science data portal"</div>
+                <div><a href="home" class="btn btn-primary btn-lg">Get Data Now</a></div>
             </div>
         </div>
 
@@ -118,6 +114,7 @@
     <section id="information" data-uitype="fade">
         <div class="information-panel-wrapper">
             <div class="information-panel">
+                <div class="sectionNavigator"><a href="#home"><i class="fa fa-3x fa-angle-double-up"></i></a></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">

@@ -1,12 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 td, p, button {
     font-family: inherit;
-}
-
-h1 {
-    font-family: impact, sans-serif;
-    font-weight: 700;
 }
 
 h1, h2 {
@@ -17,9 +11,10 @@ h1, h2 {
     padding-bottom: 10px;
 }
 
-.text-vcenter h1 {
-    font-size: 4.5em;
+.homeContent h1 {
+    font-family: impact, sans-serif;
     font-weight: 700;
+    font-size: 6em;
     margin: 0;
     padding: 0;
 }
@@ -32,9 +27,10 @@ h1, h2 {
     color: inherit;
 }
 
-.hero-unit {
-    font-family: 'Handlee', cursive;
-    font-size: 1.6em;
+.homeContent div {
+    font-family: inherit;
+    font-size: 1.8em;
+    margin: 10px 0 30px 0;
 }
 
 .text-vcenter {
@@ -74,10 +70,6 @@ h1, h2 {
     color: black;
 }
 
-.homeContent div {
-    margin: 20px;
-}
-
 #services {
     padding: 0 0 150px 0;
     height: 100%;
@@ -87,8 +79,8 @@ h1, h2 {
     color: #ffffff;
 }
 
-a:focus  {
-    border:none !important;
+a:focus {
+    border: none !important;
     outline: 0;
 }
 
@@ -127,7 +119,7 @@ a.white {
     background-color: white;
     box-shadow: 29px 10px 139px 0 rgba(50, 50, 50, 0.5);
     opacity: 0.95;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 
 #toplinks a {
@@ -155,8 +147,13 @@ a.white {
     #header {
         padding: 5px;
     }
+
     .text-vcenter h1 {
-        font-size: 3.5em;
+        font-size: 4em;
+    }
+
+    .homeContent div {
+        font-size: 1.2em;
     }
 
 }
