@@ -4,7 +4,7 @@
         <a href="landing"><img src="${portalBranding.logoImage}" alt="main logo" id="logo" height="80" />
         </a>
     </div>
-    <div id="landingHeaderContainer" class="headerHeightOverlord">
+    <div id="headerContainer" class="headerHeightOverlord">
         <h1 id="headerTitle">${portalBranding.siteHeader}</h1>
     </div>
     <g:if test="${portalBranding.secondaryLogoImage}">
