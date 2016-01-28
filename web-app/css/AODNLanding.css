@@ -81,11 +81,17 @@ h1, h2 {
     vertical-align: middle;
 }
 
+.sectionNavigator {
+    width: 20px;
+    padding: 20px;
+    bottom: 0;
+}
+
 #home {
     background: url(../images/AODN/landing/Nature-Clear-Sky-Blue-Water.jpg) no-repeat top center fixed;
     box-shadow: inset 29px 10px 159px 0 rgba(0, 0, 0, 0.4);
     display: table;
-    height: 90%;
+    height: 85%;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -111,7 +117,7 @@ h1, h2 {
 }
 
 #services {
-    padding: 100px 0 150px 0;
+    padding: 0 0 150px 0;
     height: 100%;
     width: 100%;
     display: table;

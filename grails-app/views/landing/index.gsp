@@ -64,6 +64,7 @@
 
     <!-- first section - Home -->
     <section id="home" data-uitype="background" data-speed="4">
+    <div class="sectionNavigator"><a href="#services"><i class="white fa fa-3x fa-angle-double-down"></i></a></div>
         <div class="text-vcenter">
             <div class="homeContent">
                 <h1>AODN Ocean Portal</h1>
@@ -75,11 +76,12 @@
                 <div><a href="home" class="btn btn-primary btn-lg">Get Data Now</a>
                 </div>
             </div>
-            <div class="text-center"><a href="#services"><i class="white fa fa-3x fa-angle-double-down"></i></a></div>
         </div>
+
     </section>
     <a name="services"></a>
     <section id="services" data-uitype="fade" >
+        <div class="sectionNavigator"><a href="#information"><i class="fa fa-3x fa-angle-double-down"></i></a></div>
         <div class="text-vcenter">
             <div class="container">
                 <h4 class="text-center">Products</h4> <hr />
@@ -109,10 +111,7 @@
                     </p>
                 </div>
             </div>
-            <div class="text-center"><a href="#information"><i class="fa fa-3x fa-angle-double-down"></i></a></div>
         </div>
-
-
     </section>
 
     <a name="information"></a>
