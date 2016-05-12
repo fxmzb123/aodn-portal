@@ -19,4 +19,22 @@ class LandingController {
             )
         }
     }
+    
+    def help = {
+
+        if (portalBranding.landingPage) {
+            redirect(url: portalBranding.landingPage)
+        }
+        else {
+
+            render(
+                view: "help",
+                model:[
+                    resourceVersionNumber: grailsApplication.metadata.'app.version',
+                    portalBranding: portalBranding
+                ]
+            )
+
+        }
+    }
 }

@@ -5,6 +5,7 @@ class UrlMappings {
     static mappings = {
 
         "/proxy"(controller: "proxy", action: "index")
+        "/help"(controller: "landing", action: "help")
 
         "/$controller/$action?/$id?"{
             constraints {
