@@ -85,19 +85,19 @@ class WpsService extends AsyncDownloadService {
     }
 
     def _notifyRegistrationViaEmail(params) {
-        params.email.subject = "IMOS download request registered - ${params.uuid}"
+        params.email.subject = "TPAC download request registered - ${params.uuid}"
         params.email.template = 'jobRegistered'
         notifyViaEmail(params)
     }
 
     def _notifyDownloadViaEmail(params) {
-        params.email.subject = "IMOS download available - ${params.uuid}"
+        params.email.subject = "TPAC download available - ${params.uuid}"
         params.email.template = 'jobComplete'
         notifyViaEmail(params)
     }
 
     def _notifyErrorViaEmail(params) {
-        params.email.subject = "IMOS download ERROR - ${params.uuid}"
+        params.email.subject = "TPAC download ERROR - ${params.uuid}"
         params.email.template = 'jobFailed'
         notifyViaEmail(params)
     }
